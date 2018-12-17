@@ -7,7 +7,7 @@ nav li {
 
 display: inline;
 padding: 20px;
-background: rgba(2, 0, 3, 0.699);
+background: rgba(2, 0, 3, 0.527);
 margin: 40px 20px;
 border-style: solid;
 border-radius: 15px;
@@ -93,16 +93,30 @@ nav li:hover {
         font-family: 'Roboto Condensed', sans-serif;
     }
 
-        #heutzutage {
+        h2 {
 
             color: rgba(2, 0, 3, 0.699);
-            height: 15px;
-
+            font-family: 'Roboto Condensed', sans-serif;
         }
 
-            #ipdns {
+
+        .abfrage {
+
+                display: flex;
+                justify-content: center;
                 
-                color: rgba(2, 0, 3, 0.699);
+                
         }
 
+        li {
+            font-family: 'Roboto Condensed', sans-serif;
+            color: grey;
+        }
+
+        footer {
+
+                position: absolute;
+                background-color: rgba(2, 0, 3, 0.527);
+
+        }
     /* Das Internet  */
