@@ -1,0 +1,22 @@
+nav li {
+
+display: inline;
+padding: 20px;
+background: grey;
+margin: 0 50px;
+
+}
+
+header {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+}
