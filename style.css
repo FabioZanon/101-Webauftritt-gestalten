@@ -1,32 +1,41 @@
 body {
 
     background-color: rgba(2, 0, 3, 0.699);
+    
+    
 }
+
+
 
 nav li {
 
 display: inline;
 padding: 20px;
-background: rgba(2, 0, 3, 0.527);
-margin: 40px 20px;
-border-style: solid;
-border-radius: 15px;
-border-color: grey;
+background-color: rgb(53, 52, 52);
+
+margin: 70px 0px;
 }
 
 
 
 nav ul {
 
-margin-top: 30px;
+margin-top: 85px;
+margin-left: 0px;
+
 
 }
+
+
+
 
 header {
 
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
+        align-items: flex-end;
+        
 
 }
 
@@ -36,30 +45,6 @@ nav a {
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
-nav li:hover {
-
-
-    background-color: rgb(0, 0, 0);
-    
-}
-
-.html:hover {
-
-
-    color: rgb(53, 102, 207);
-}
-
-.css:hover {
-    
-    color: rgb(230, 125, 88);
-    }
-
-    .praxis:hover {
-
-        color: rgb(19, 172, 19);
-    }
-
     h1 {
 
             text-align: center;
@@ -88,14 +73,14 @@ nav li:hover {
 
     p {
 
-        color: grey;
+        color: rgb(173, 173, 173);
         max-width: 1000px;
         font-family: 'Roboto Condensed', sans-serif;
     }
 
         h2 {
 
-            color: rgba(2, 0, 3, 0.699);
+            color: rgb(53, 102, 207);
             font-family: 'Roboto Condensed', sans-serif;
         }
 
@@ -151,12 +136,67 @@ nav li:hover {
         }
         ul {
                 max-width: 1000px;
+                color: rgb(173, 173, 173);
                 
+                    }
+                    ol {
+
+                        color: rgb(173, 173, 173);
                     }
 
                     .beins {
 
 
-                        color: black;
+                        color: rgb(53, 102, 207);
                     }
+
+.pzwei {
+
+    color: rgb(53, 102, 207);
+}
+
+
+.pdrei {
+
+
+    color: rgb(53, 102, 207);
+}
+
+.separat {
+
+    color: rgb(204, 204, 204);
+
+}
     /* Das Internet */
+
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .navbar a {
+        float: none;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .dropdown {
+        overflow: hidden;
+        display: inline-block;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      
+      }
