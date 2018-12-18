@@ -149,4 +149,14 @@ nav li:hover {
             color: rgb(53, 102, 207);
             font-family: 'Roboto Condensed', sans-serif;
         }
+        ul {
+                max-width: 1000px;
+                
+                    }
+
+                    .beins {
+
+
+                        color: black;
+                    }
     /* Das Internet */
