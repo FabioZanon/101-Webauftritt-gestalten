@@ -148,7 +148,7 @@ ol {
 .navbar {
         overflow: hidden;
         background-color: #333;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
       }
       
 .navbar a {
@@ -270,3 +270,27 @@ nav {
         z-index: 1;
 
       }
+      @media(max-width: 768px) {
+
+
+        nav {
+
+            display: block;
+
+        }
+
+
+    }
+
+    h3 {
+
+
+        color:  rgb(60, 172, 180);
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .videoundaudio {
+
+        color: rgb(60, 172, 180);
+        font-family: 'Roboto Condensed', sans-serif;
+    }
