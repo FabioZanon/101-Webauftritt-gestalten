@@ -251,36 +251,12 @@ nav {
         z-index: 1;
       }
 
- .dropdown-content2 {
-        display: none;
-        position: absolute;
-        background-color: rgb(209, 132, 43);
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-
-.dropdown-content3 {
-
-        display: none;
-        position: absolute;
-        background-color: green;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-
-      }
-      @media(max-width: 768px) {
 
 
-        nav {
-
-            display: block;
-
-        }
+    
 
 
-    }
+    
 
     h3 {
 
@@ -293,4 +269,12 @@ nav {
 
         color: rgb(60, 172, 180);
         font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    
+
+    dd {
+
+        font-family: 'Roboto Condensed', sans-serif;
+
     }
