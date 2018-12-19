@@ -1,8 +1,7 @@
 body {
 
     background-color: rgba(2, 0, 3, 0.699);
-    
-    
+      
 }
 
 
@@ -16,31 +15,19 @@ background-color: rgb(53, 52, 52);
 margin: 70px 0px;
 }
 
-
-
-
-
-
-
 header {
 
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-
 }
 
 nav ul {
 
             margin-top: 0px;
-            float: right;
-            
-
+            float: right;     
 }
-
-
-    
+ 
 
 nav a {
 
@@ -48,120 +35,107 @@ nav a {
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
-    h1 {
+
+ h1 {
 
             text-align: center;
             margin-top: 120px;
             font-family: 'Roboto Condensed', sans-serif;
             color: rgb(204, 204, 204);
             height: 30px;
-
     }
 
-    
-    
-
-    .navmodul {
+.navmodul {
 
       font-family: 'Roboto Condensed', sans-serif;
       color: rgb(173, 173, 173);
 }
-      
-
     
-
-
-
-    
-    p {
+p {
 
         color: rgb(173, 173, 173);
         max-width: 1000px;
         font-family: 'Roboto Condensed', sans-serif;
     }
 
-        h2 {
+ h2 {
 
-            color: rgb(53, 102, 207);
+            color: rgb(60, 172, 180);
             font-family: 'Roboto Condensed', sans-serif;
         }
 
 
-        .abfrage {
+ .abfrage {
 
                 display: flex;
                 justify-content: flex-start;
-                
+            
                 
         }
 
-        li {
+ li {
             font-family: 'Roboto Condensed', sans-serif;
             color: rgb(173, 173, 173);
         }
 
-        footer {
+ footer {
 
                 position: absolute;
                 background-color: rgba(2, 0, 3, 0.527);
 
         }
 
-        .htmltitel {
-
-                    color: rgb(53, 102, 207);
-
-        }
+        
 
 
-        #ankereins {
+#ankereins {
 
             color: rgb(53, 102, 207);
         }
 
-        .pundp {
+.pundp {
 
-                color: rgb(53, 102, 207);
+                color: rgb(60, 172, 180);
                 font-family: 'Roboto Condensed', sans-serif;
         }
 
-        .aunda {
+.aunda {
 
-            color: rgb(53, 102, 207);
+            color: rgb(60, 172, 180);
             font-family: 'Roboto Condensed', sans-serif;
         }
 
-        .starttag {
+.starttag {
 
-            color: rgb(53, 102, 207);
+            color: rgb(60, 172, 180);
             font-family: 'Roboto Condensed', sans-serif;
         }
-        ul {
+ul {
                 max-width: 1000px;
                 color: rgb(173, 173, 173);
                 
                     }
-                    ol {
+ol {
 
                         color: rgb(173, 173, 173);
                     }
 
-                    .beins {
+.beins {
 
 
-                        color: rgb(53, 102, 207);
+                        color: rgb(60, 172, 180);
                     }
 
 .pzwei {
 
-    color: rgb(53, 102, 207);
+    color: rgb(60, 172, 180);
 }
 
 
 .pdrei {
 
 
-    color: rgb(53, 102, 207);
+    color: rgb(60, 172, 180);
 }
 
 .separat {
@@ -169,15 +143,15 @@ nav a {
     color: rgb(204, 204, 204);
 
 }
-    /* Das Internet */
+ /* Das Internet */
 
-    .navbar {
+.navbar {
         overflow: hidden;
         background-color: #333;
         font-family: Arial, Helvetica, sans-serif;
       }
       
-      .navbar a {
+.navbar a {
         float: none;
         font-size: 16px;
         color: white;
@@ -186,19 +160,113 @@ nav a {
         text-decoration: none;
       }
       
-      .dropdown {
-        overflow: hidden;
-        display: inline-block;
-      }
-      
-      .dropdown .dropbtn {
+      /* Dropdown Button */
+.dropbtn {
+    background-color: rgb(53, 102, 207);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+ 
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(33, 74, 161);
+  }
+.dropdown:hover .dropbtn2 {
+                        background-color: rgb(148, 95, 17);
+}
+.dropdown:hover .dropbtn3 {
+    background-color: rgb(7, 97, 7);
+}
+
+.navdropdown {
+
+        float: right;
+
+    }
+
+    
+
+.dropbtn2 {
+        background-color: rgb(209, 132, 43);
+        color: white;
+        padding: 16px;
         font-size: 16px;
         border: none;
-        outline: none;
+      }
+
+.dropbtn3 {
+        background-color: green;
         color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+
+nav {
+        
+        margin-right: 60px;
+      }
+
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+ .dropdown-content2 {
+        display: none;
+        position: absolute;
+        background-color: rgb(209, 132, 43);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+.dropdown-content3 {
+
+        display: none;
+        position: absolute;
+        background-color: green;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+
       }

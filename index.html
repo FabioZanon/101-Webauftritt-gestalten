@@ -18,16 +18,56 @@
 
         <h1 class="navmodul">Modul 101, Webauftritt gestalten und realisieren</h1>
     </header>
-   
-    <nav>
 
-        <ul>
-            <li><a href="index.html">HTML</a></li>
-            <li><a href="index.html">CSS</a></li>
-            <li><a href="index.html">Praxis</a></li>
+    <nav class="navdropdown">
 
-        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">HTML</button>
+            <div class="dropdown-content">
+                <a href="#ankerzwei">Elemente</a>
+                <a href="#ankerdrei">Markup</a>
+                <a href="#ankervier">Listen</a>
+                <a href="#ankerfünf">Formulare</a>
+                <a href="#">Video & Audio</a>
+                <a href="#">Bilder</a>
+                <a href="#">Links</a>
+                <a href="#">Tabellen</a>
+            </div>
+        </div>
 
+        <div class="dropdown">
+            <button class="dropbtn2">CSS</button>
+            <div class="dropdown-content">
+                <a href="#">CSS Einbinden</a>
+                <a href="#">CSS Regel</a>
+                <a href="#">Selektor</a>
+                <a href="#">Fonts</a>
+                <a href="#">Farbe</a>
+                <a href="#">Kästen</a>
+                <a href="#">Listen, Tabellen & Formulare</a>
+                <a href="#">Bilder</a>
+                <a href="#">Box-Modell</a>
+                <a href="#">Flex-Box</a>
+                <a href="#">Media-Queries</a>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn3">Praxis</button>
+            <div class="dropdown-content">
+                <a href="#">Wireframe</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Layout in HTML</a>
+                <a href="#">Validierung</a>
+                <a href="#">Testprotokoll</a>
+            </div>
+        </div>
 
 
 
@@ -35,7 +75,7 @@
 
     </nav>
 
-    </header>
+
 
 
 
@@ -102,7 +142,7 @@
             muss. Nachdem kann man den Titel (Zeile Sieben) beliebig ändern. Der Titel wird oben im Tab der Site ange
             zeigt. </p>
 
-        <h2 class="ankerzwei">Elemente</h2>
+        <h2 id="ankerzwei">Elemente</h2>
         <p>
             In HTML werden die ungern genannten "Befehle" "Codes" genannt, und besteht aus einem oder mehreren
             Elementen. Zum Beispiel wird ein Text zwischen <i class="pundp">&lt;p&gt;</i> und <i class="pundp">&lt;/p&gt;</i>
@@ -114,9 +154,9 @@
                 href=&quot;http://sbb.ch&quot;&gt; SBB &lt;a/&gt;</i></p>
 
         <p>Hier steht <i class="starttag">&#x3C;a&#x3E;</i> als Start-Tag, "href" als Name, der Link für den Wert, SBB
-            für den Elementinhalt und <i class="starttag">&#x3C;/a&#x3E;</i>als End-Tag.</p>
+            für den Elementinhalt und <i class="starttag">&#x3C;/a&#x3E;</i> als End-Tag.</p>
 
-        <h2>Markup</h2>
+        <h2 id="ankerdrei">Markup</h2>
         <p>Wenn man eine Website erstellt, fügt man Tags, die so genannten "Markup", zum Inhalt hinzu. Diese Tags geben
             dem Inhalt eine zusätzliche Bedeutung und ermöglichen den Besuchern, die Seite in der richtigen Struktur
             anzuzeigen.</p>
@@ -129,7 +169,7 @@
                 Bedeutung eine Abkürzung hat usw.</li>
         </ul>
 
-        <h2>Listen</h2>
+        <h2 id="ankervier">Listen</h2>
 
         <p> Es gibt zwei Arten von Listen, die Geordnete- und Ungeordnete-Liste. Folgende zwei Beispiele verdeutlichen
             dies.</p>
@@ -155,7 +195,7 @@
             en für z.B Vorstellungen, Ideen oder Beispiele eher die ungeordnete.
         </p>
 
-        <h2>Formulare</h2>
+        <h2 id="ankerfünf">Formulare</h2>
         <p> Das wahrscheinlich bekannteste Formular im Web ist das Suchfelt in der Mitte der Startseite von Google. Es
             dient als Platzhalter für die Eingabe des Users. Auf dem Bild unten sieht man, wie dies in HTML gecodet
             wird und wie es danach aussieht.</p>
