@@ -302,14 +302,39 @@
         <p>Nachdem man diesen Code in HTML eingefügt hat, sollte folgendes auf der Website erscheinen:</p>
         <img src="../img/HTML Bild eingefügt.JPG" alt="HTMLBildEingefügt">
 
-        <p>In diesem Code wird wie man sieht "width", "height", "alt" und "id" verwendet. mit "width" und height" legt man die Breite und Höhe des Bildes fest und mit "alt" die Beschreibung des Bildes, also sozusagen eine frei wählbare Kategorie.
-             Mit der "id" fügt man dem Bild eine bestimmte Identität fest, die (anders wie bei einer Klasse) nur für etwas einzelnes gültig ist. Die festgelegte "id" wird in CSS mit dem Selektor "#idname" angesprochen und kann beliebig formatiert und bearbeitet werden.
+        <p>In diesem Code wird wie man sieht "width", "height", "alt" und "id" verwendet. mit "width" und height" legt
+            man die Breite und Höhe des Bildes fest und mit "alt" die Beschreibung des Bildes, also sozusagen eine frei
+            wählbare Kategorie.
+            Mit der "id" fügt man dem Bild eine bestimmte Identität fest, die (anders wie bei einer Klasse) nur für
+            etwas einzelnes gültig ist. Die festgelegte "id" wird in CSS mit dem Selektor "#idname" angesprochen und
+            kann beliebig formatiert und bearbeitet werden.
         </p>
         <h2>Links und Pfade</h2>
 
-        <p>In HTML gibt es internes und externes Verlinken. Wenn man von einer Menüleiste mit einem Klick zum Text kommtn möchte, benutzt man einen internen Link. 
-            
-        </p> 
+        <p>In HTML gibt es internes und externes Verlinken. Wenn man von einer Menüleiste mit einem Klick zum Text
+            kommen möchte, benutzt man einen internen Link.
+            Dies funktioniert folgendermassen:
+            Falls der Link auf den Text mit der Überschrift <i class="videoundaudio">&#x3C;h2&#x3E;</i> Überschrift <i
+                class="videoundaudio">&#x3C;/h2&#x3E;</i> verweisen sollte muss man im Tag <i class="videoundaudio">&#x3C;h2&#x3E;
+            </i> einen Anker festlegen. Für den Anker benutzt man eine "id". Kurz gesagt sieht die Überschrift mit dem
+            gesetztem
+            Anker so aus:
+
+
+            <p><i class="videoundaudio">&#x3C;h2 </i> id=&#x22;&#xFC;berschrift1&#x22;<i class="videoundaudio">&#x3E;</i>
+                &#xDC;berschrift<i class="videoundaudio">&#x3C;/h2&#x3E;</i></p>
+
+        </p>
+        <p>Nun hat man einen Anker gesetzt und kann den von jetzt an in der Navigation benutzen. Dafür geht man zur Navigationsleiste, diesich zu oberst im "body" befindet.
+
+        </p>
+        <p>Dort sieht eine Verlinkung wie folgt aus:</p>
+        <p><i class="videoundaudio">&#x3C;a</i> href=&#x22;#&#xFC;berschrift1<i class="videoundaudio">&#x3E;</i>&#xDC;berschrift1 &#x3C;/a&#x3E;</p>
+        <p>In diesem Code steht das Tag <i class="videoundaudio">&#x3C;a&#x3E;</i> für den Link. mit "href" gibt man die 
+        Verlinkung an, also wohin der Link verweisen soll. Dort hinein kommt der Anker, der vorher gesetzt wurde. Nun kann man auf der Website in der Navigatinsleiste den Link anklicken und wird automatisch zum Text geleitet.</p>
+    <p>Dann gibt es noch den externen Link, der verweist immer auf eine andere Website wie z.B Youtube oder Migros.</p>
+    <p>Wenn man zum Beispiel in diesem Satz: Dieses Video ist auf Youtube, das Wort "Dieses" mit Youtube verlinken möchte, benötigt man den folgenden Code:  </p>
+    <p><i class="videoundaudio">&#x3C;a</i> href=&#x22;youtube.com&#x22;<i class="videoundaudio">&#x3E;</i>Dieses<i class="videoundaudio">&#x3C;/a&#x3E;</i></p>
     </main>
 
 </body>
